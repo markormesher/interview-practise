@@ -48,7 +48,7 @@ public class CheckIfStringIsPermutationOfAnother {
 
 	public static void main(String... args) {
 		if (args.length == 2) {
-			System.out.println("Using character counting..");
+			System.out.println("Using character counting...");
 			System.out.println(checkIfStringIsPermutationOfAnotherWithCharacterCounts(args[0], args[1]) ? "Yes" : "No");
 
 			System.out.println("\nUsing sorted comparisons...");

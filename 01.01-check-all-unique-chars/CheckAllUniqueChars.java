@@ -60,7 +60,7 @@ public class CheckAllUniqueChars {
 
 	public static void main(String... args) {
 		if (args.length == 1) {
-			System.out.println("Using a HashSet..");
+			System.out.println("Using a HashSet...");
 			System.out.println(checkAllUniqueCharsWithHashSet(args[0]) ? "All unique!" : "Contains duplicates");
 
 			System.out.println("\nUsing a bit vector...");
