@@ -88,7 +88,7 @@ public class PartitionLinkedList {
 		System.out.println("Input:");
 		printLinkedList(head);
 
-		System.out.println("Output:");
+		System.out.println("\nOutput:");
 		printLinkedList(partitionLinkedList(head, partitionValue));
 	}
 
