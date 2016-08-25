@@ -39,6 +39,8 @@ public class ZeroMatrix {
 	}
 
 	public static void main(String... args) {
+		System.out.println("Input: [width] [height] [elements, left to right, top to bottom]")
+
 		Scanner in = new Scanner(System.in);
 		int width = in.nextInt();
 		int height = in.nextInt();
