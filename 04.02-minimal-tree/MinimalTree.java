@@ -61,7 +61,10 @@ public class MinimalTree {
 		return Math.max(height, Math.max(leftHeight, rightHeight));
 	}
 
-	/* Less efficient, because insert() takes O(log n) */
+	/*
+	Less efficient, because insert() takes O(log n)
+	O(n log n) time
+	*/
 	public void insertOptimally(int[] numbers) {
 		insertOptimallyHelper(numbers, 0, numbers.length - 1);
 	}
@@ -77,7 +80,10 @@ public class MinimalTree {
 		}
 	}
 
-	/* More efficient! */
+	/*
+	More efficient!
+	O(n) time
+	*/
 	public static MinimalTree createOptimalTree(int[] numbers) {
 		MinimalTree mt = new MinimalTree();
 		mt.root = createOptimalTreeHelper(numbers, 0, numbers.length - 1);
