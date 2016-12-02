@@ -24,7 +24,7 @@ public class Product {
 			runningProduct *= nums[i];
 		}
 
-		// work back down the array, multiplying by the product of value after each index
+		// work back down the array, multiplying by the product of values after each index
 		runningProduct = 1;
 		for (int i = n - 1; i >= 0; --i) {
 			output[i] *= runningProduct;
