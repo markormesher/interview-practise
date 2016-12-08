@@ -1,3 +1,8 @@
+/*
+Task: reverse the words in a string
+Example: "world hello" becomes "hello world"
+*/
+
 public class ReverseWords {
 
 	public static String reverseWords(String arg) {
