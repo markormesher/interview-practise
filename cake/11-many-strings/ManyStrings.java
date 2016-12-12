@@ -1,3 +1,7 @@
+/*
+Task: quickly check if a string is in a set that will be huge.
+*/
+
 import java.util.*;
 
 public class ManyStrings {
