@@ -1,10 +1,11 @@
 /*
 Task: given a set of cake weights and values, determine the maximum value that a weight-limited bag can hold.
+Note: there is an unlimited supply of all cakes.
 */
 
 import java.util.*;
 
-public class Knapsack2 {
+public class UnlimitedKnapsack2 {
 
 	public static class Cake {
 		int weight, value;
